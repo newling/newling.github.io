@@ -3,10 +3,10 @@ import os
 import socket
 
 filenames = [
-"posters/2017/nips/clarans/clarans_poster.pdf", 
+#"posters/2017/nips/clarans/clarans_poster.pdf", 
 #"slides/2017/nips/clarans/clarans_spotlight.pdf",
-"slides/2017/smld/clarans/newling_smld.pdf",
-#"cv_4.pdf"
+#"slides/2017/smld/clarans/newling_smld.pdf",
+"cv_4.pdf"
 ]
 
 if socket.gethostname() == "goudurix11" or "idbean":

@@ -1,0 +1,50 @@
+<div id="resume_basic_info">
+
+
+    <!-- The logo and the conference name will be aligned at the top -->
+	<img id="image_right" src="images/logo_{{include.publisher}}.png"></img>
+    <span id="publication_title">{{include.name}}</span><br/>
+    <span id="publication_location">{{include.location}}</span>, 
+    <span id="publication_date">{{include.date}}</span><br/>
+    <span id="publication_authors">{{include.authors}}</span><br/>
+
+	  <div id="list_box">
+
+		{% if include.pdf %}
+			<a href={{include.pdf}}>[PDF]</a> 
+		{% endif %}
+
+		{% if include.doi %}
+			<a href={{include.doi}}>[DOI]</a> 
+		{% endif %}
+
+
+		{% if include.arxiv %}
+			<a href=https://arxiv.org/abs/{{include.arxiv}}>[arXiv]</a> 
+		{% endif %}
+
+		{% if include.poster %}
+			<a href={{include.poster}}>[poster]</a> 
+		{% endif %}
+
+
+		{% if include.spotlight_slides %}
+			<a href={{include.spotlight_slides}}>[spotlight slides]</a> 
+		{% endif %}
+
+
+		{% if include.smld_slides %}
+			<a href={{include.smld_slides}}>[Swiss Machine Learning Day Slides]</a> 
+		{% endif %}
+
+		{% if include.bib %}
+			<a href=publications_bib.html#{{include.bib}}>[bib]</a> 
+		{% endif %}
+
+		{% if include.bestpaper %}
+			<a href={{include.paper}}>[Best Paper Award]</a> 
+		{% endif %}
+
+	  </div>
+
+</div>

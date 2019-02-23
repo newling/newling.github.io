@@ -1,0 +1,108 @@
+#normal {
+  /* The main html
+   * going with the default
+  */
+
+  /*
+	width: 950px;
+	margin: auto;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-size: 11pt;
+	text-align: left;
+	color: black;
+	background: var(--color-gray);
+  */
+}
+
+#software_basic_info {
+	color: black;
+	padding: 0.8em;
+	padding-bottom: 0.0em;
+	padding-top: 0.2em;
+	padding-bottom: 1.2em;
+	border-top: 0.2px solid #888888;
+}
+
+#resume_basic_info {
+	color: black;
+	padding: 0.8em;
+	padding-bottom: 0.0em;
+	padding-top: 1.0em;
+	padding-bottom: 1.0em;
+	border-top: 0.2px solid #888888;
+}
+#resume_description{
+	padding: 0.1em;
+}
+#resume_date{
+  font-style: italic;
+}
+#resume_company{
+}
+#resume_location{
+  font-style: italic;
+  color: gray;
+}
+#resume_title{
+  font-weight:bold;
+}
+
+
+#publication_title{
+  font-weight:bold;
+}
+#publication_location{
+}
+#publication_date{
+  font-style: italic;
+}
+#publication_authors{
+}
+
+
+
+#image_right {
+  /* An image flush to the right */
+	float: right;
+  /* Of maximum width and height */
+	max-width: 100px;
+	max-height: 50px;
+  /* Padded off from the right by a certain amount */
+	padding-left: 0px;
+  /* throw a border around the image */
+	border: 0px solid var(--color-dark);
+}
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}

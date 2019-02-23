@@ -1,0 +1,55 @@
+--- 
+layout: default 
+title: James Newling | Software
+current: software
+---
+
+<h2>Software</h2>
+
+This is a list of the software projects I started during my PhD, 
+which are now publicly available. For more information, please visit 
+<a href="https://github.com/newling" target="_top">my Github page</a>.
+
+<br/>
+<br/>
+
+{% include software.html
+name = "MIOpenGEMM" 
+description = "An optimized GPU GEMM (matrix multiply) library with API.
+An illustrated explanation of how the optimized OpenCL kernels are created and 
+then automatically improved can be found on the 
+<a href=https://github.com/ROCmSoftwarePlatform/MIOpenGEMM/wiki>wiki</a>. 
+The MIOpenGEMM library is available under a MIT License."
+github = "https://github.com/ROCmSoftwarePlatform/MIOpenGEMM"
+wiki = "https://github.com/ROCmSoftwarePlatform/MIOpenGEMM/wiki"
+%} 
+
+{% include software.html
+name = "zentas" 
+description = "
+An O(N) 
+implementation of the Clarans K-Medoids algorithm for diverse datatypes and 
+metrics (sequence data, sparse data, etc). It is written in C++ 
+with Python bindings in Cython. 
+"
+github = "https://github.com/idiap/zentas"
+%} 
+
+{% include software.html
+name = "eakmeans" 
+description = "
+Implementations of various fast exact k-means algorithms, written in C++ 
+with bindings for Python. 
+"
+github = "https://github.com/idiap/eakmeans"
+%} 
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+<hr>
+    
+

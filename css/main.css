@@ -73,6 +73,15 @@
 	border: 0px solid var(--color-dark);
 }
 
+#navbar_flush_right {
+  /* An image flush to the right */
+  text-align:right;
+  float:right;
+  color:red;
+  text-align: center;
+  text-decoration: none;
+}
+
 
 /* Style the navbar */
 #navbar {

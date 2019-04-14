@@ -1,5 +1,10 @@
 <div id="resume_basic_info">
 	<img id="image_right" src="images/logo_{{ include.logo }}.png"></img>
+
+  {% if include.logo2 %}
+	<img id="image_right_2" src="images/logo_{{ include.logo2 }}.png"></img>
+  {% endif %}
+
 	<span id="resume_title">{{include.title}}</span><br/>
 	<span id="resume_company">{{include.name}}</span><br/>
 	<span id="resume_date">{{include.date}}</span><br/>

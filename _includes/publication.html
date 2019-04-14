@@ -11,13 +11,12 @@
 	  <div id="list_box">
 
 		{% if include.pdf %}
-			<a href={{include.pdf}}>[PDF]</a> 
+		<a href={{include.pdf}}>[PDF]</a> 
 		{% endif %}
 
 		{% if include.doi %}
-			<a href={{include.doi}}>[DOI]</a> 
+		<a href={{include.doi}}>[DOI]</a> 
 		{% endif %}
-
 
 		{% if include.arxiv %}
 			<a href=https://arxiv.org/abs/{{include.arxiv}}>[arXiv]</a> 
@@ -42,7 +41,9 @@
 		{% endif %}
 
 		{% if include.bestpaper %}
-			<a href={{include.bestpaper}}>[Best Paper Award]</a> 
+			<a 
+         style="font-weight:bold"
+        href={{include.bestpaper}}>[Best Paper Award]</a> 
 		{% endif %}
 
 	  </div>

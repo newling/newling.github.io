@@ -14,13 +14,19 @@
   */
 }
 
+#software_name {
+	color: black;
+  font-weight: bold;
+	padding: 0.0em;
+}
+
 #software_basic_info {
 	color: black;
-	padding: 0.8em;
+	padding: 1.0em;
 	padding-bottom: 0.0em;
 	padding-top: 0.2em;
 	padding-bottom: 1.2em;
-	border-top: 0.2px solid #888888;
+	 // border-top: 0.2px solid #888888;
 }
 
 #resume_basic_info {
@@ -59,6 +65,18 @@
 #publication_authors{
 }
 
+
+#image_right_2 {
+  /* An image flush to the right */
+	float: right;
+  /* Of maximum width and height */
+	max-width: 100px;
+	max-height: 50px;
+  /* Padded off from the right by a certain amount */
+	padding-right: 13px;
+  /* throw a border around the image */
+	border: 0px solid var(--color-dark);
+}
 
 
 #image_right {

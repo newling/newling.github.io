@@ -8,18 +8,22 @@ current: experience
 
 {% include resume.html 
 name = "Graphcore" 
+title = "Software team lead" 
+location = "Bristol, United Kingdom" 
+date = "06/2020 - present"
+description =  "I lead a team developing machine learning frameworks for
+Graphcore's intelligence processing unit (IPU). "
+
+logo = "graphcore" 
+%} 
+
+{% include resume.html 
+name = "Graphcore" 
 title = "ML frameworks engineer" 
 location = "Bristol, United Kingdom" 
-date = "03/2018 - current"
-description =  "I work on training and inference of 
-<a href=https://onnx.ai>ONNX</a> models for Graphcore's intelligence processing unit (IPU). 
-This involves 
-designing C++ and Python 
-neural net APIs, 
-implementing neural net
-<a href=https://github.com/onnx/onnx/blob/master/docs/Operators.md>layers</a> 
-using Graphcore's libraries, 
-and implementing graph compiler optimization passes which target the IPU. "
+date = "03/2018 - 05/2020"
+description =  "I worked on lowering high level descriptions of machine learning
+models to Graphcore's intelligence processing unit (IPU). "
 logo = "graphcore" 
 %} 
 
@@ -30,9 +34,9 @@ name = "Advanced Micro Devices / HSA"
 title = "GPU kernel engineer" 
 location = "Martigny, Switzerland" 
 date = "01/2017 - 10/2017" 
-description = "After my internship with AMD, I continued to work on the
+description = "After interning at AMD, I continued to collaborate on the
 <a href=https://github.com/ROCmSoftwarePlatform/MIOpenGEMM>
-MIOpenGEMM </a> project as a remote collaborator. This was made possible through a grant from the
+MIOpenGEMM </a> project. This was made possible through a grant from the
 <a href=http://www.hsafoundation.com>
 HSA Foundation</a>." 
 logo = "hsa" 
@@ -44,14 +48,14 @@ name = "Advanced Micro Devices (AMD)"
 title = "Co-op" 
 location = "Austin, Texas"
 date = "09/2016 - 12/2016" 
-description = "I was a member of the team developing
+description = "I was part of the team developing
 <a href=https://github.com/ROCmSoftwarePlatform>
 ROCm</a>, an open-source HPC platform for GPU computing.
-During this internship I initiated the 
+During this internship I started the 
 <a href=https://github.com/ROCmSoftwarePlatform/MIOpenGEMM>
 MIOpenGEMM</a> 
-project for fast GEMM (matrix multiply) kernels in OpenCL. 
-A description of the actively used project can be found on the 
+project for optimized GEMM (matrix multiply). 
+A description of the project can be found on the 
 <a href=https://github.com/ROCmSoftwarePlatform/MIOpenGEMM/wiki>
 wiki</a>."
 logo = "amd"
@@ -67,11 +71,9 @@ description = "I was a member of the
 <a href=http://www.idiap.ch/en/scientific-research/machine-learning>
 Machine Learning Group</a> at the 
 <a href=http://www.idiap.ch/fr>
-Idiap Research Institute</a>. Our group focused on statistical learning 
-techniques for computer vision, with a special interest in computational
-aspects. My research was on partitional clustering, and funded by the 
-<a href=https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation>
-Hasler Foundation</a>."
+Idiap Research Institute</a>. Our collaborative group focused on statistical 
+learning techniques for computer vision, with a special interest in computational
+aspects. My research was on partitional clustering."
 logo = "idiap" 
 %} 
 
@@ -81,7 +83,6 @@ title = "Research assistant"
 location = "Amsterdam, The Netherlands" 
 date = "04/2013 - 08/2013" 
 description = "I was a research assistant in the 
-
 <a href=
    http://mukherjeelab.nki.nl/Home.html>
 Mukherjee Lab for Statistical Systems Biology</a> in the
@@ -106,7 +107,7 @@ name = "KUHS"
 title = "School maths teacher" 
 location = "Dhulikhel, Nepal" 
 date = "04/2009 - 09/2009"
-description = "I taught grade 6 mathematics at the <a href=http://www.kuhs.edu.np>
+description = "I taught grade 6 maths at the <a href=http://www.kuhs.edu.np>
 Kathmandu University High School</a>, a private, English medium school in Nepal." 
 logo = "kuhs" 
 %}
